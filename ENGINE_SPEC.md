@@ -21,7 +21,7 @@
 | **Oil Pan & Pickup** | Moroso 7-qt (`#20535`) + Pickup (`#24523`) | **Front-sump**, 8.0" deep, passenger-side kickout, road-race baffled (4 trap doors). Fits classic front-steer Mustang; **does NOT fit Mustang II / rack-and-pinion** without clearance check. Uses **pan-mounted passenger-side dipstick** (e.g., Moroso 25970/25971/25973). |
 | **Timing Cover** | Fox Body Timing Chain Cover | **VERIFY:** Standard 86–93 EFI Fox covers lack a mechanical fuel pump pad (79–85 carb Fox or early SBF covers have one). Also dictates **reverse-rotation** water pump (serpentine) vs. standard-rotation (V-belt) and timing pointer position. |
 | **Fuel Pump Eccentric** | **NOT INSTALLED** (per owner; originally planned EFI) | **DECISION NEEDED:** To run a 100% mechanical fuel pump, pull the Fox cover now (while engine is on stand) to install an eccentric and verify/swap to a cover with a mechanical fuel pump boss. Otherwise, keep the Fox cover and run a low-pressure electric fuel pump + regulator for carb. |
-| **Camshaft** | FordStrokers Custom Hyd Roller Billet | **VERIFY:** Obtain cam card (duration @ .050", lift, LSA, ICL, expected idle vacuum) to size carb power valve, brake booster vacuum, and gear/converter. |
+| **Camshaft** | COMP Cams Custom Billet Hyd Roller (`#35-000-9`, Grind: `"FIEGENER"`) | **`226° / 234°` @ `.050"`**, `.563" / .566"` lift (w/ 1.6 rockers), `110°` LSA, `106°` ICL, **351W/302HO firing order (`1-3-7-2-6-5-4-8`)**. Requires **melonized/steel/composite distributor gear** (NOT cast iron). |
 
 ---
 
@@ -40,7 +40,13 @@
 - **Rear Main Seal:** Fel-Pro Rear Main Seal
 - **Main Fasteners:** ARP Main Studs
 - **Freeze Plugs:** Installed
-- **Camshaft:** FordStrokers Custom Hydraulic Roller Billet Camshaft *(cam card specs TBD)*
+- **Camshaft:** COMP Cams Custom Hydraulic Roller Billet (`Part #35-000-9`, Grind `"FIEGENER"`, FW Ford 351W/302HO firing order `1-3-7-2-6-5-4-8`)
+  - **Duration @ `.006"`:** `275°` Int / `283°` Exh
+  - **Duration @ `.050"`:** `226°` Int / `234°` Exh
+  - **Lobe Lift:** `.352"` Int / `.354"` Exh
+  - **Gross Valve Lift (w/ `1.6` rockers):** `.563"` Int / `.566"` Exh
+  - **LSA / ICL:** `110°` LSA / `106°` Intake Centerline (`10°` overlap @ `.050"`)
+  - **Timing @ `.050"` (at `106°` ICL):** Int opens `6.6° BTDC`, closes `39.4° ABDC`; Exh opens `50.6° BBDC`, closes `3.4° ATDC`
 - **Cam Fasteners & Retention:** ARP Cam Bolt, Cam Retainer Plate
 - **Timing Set:** SA Gear Billet Timing Chain w/ Torrington Bearing
 - **Oil Pump & Drive:** Melling `M68` Oil Pump, ARP Oil Pump Bolts, Moroso Oil Pump Pickup (`#24523`), ARP Billet Oil Pump Shaft
@@ -76,7 +82,7 @@
 
 ## Dressing & Verification Checklist (Still Needed for Engine)
 1. **Timing Cover & Fuel Pump Eccentric (NO Eccentric Installed):** Decide between (A) pulling the Fox cover now to add an eccentric + carb-style timing cover for a 100% mechanical pump, or (B) keeping the Fox cover and running a simple, regulated low-pressure electric fuel pump. Also verify Fox cover water pump rotation.
-2. **Obtain Cam Card:** Record duration @ .050", valve lift (with 1.6 rockers), LSA, and expected idle vacuum.
+2. **Cam Card Recorded (`#35-000-9` "FIEGENER"):** Confirm idle manifold vacuum on initial startup to finalize carb power valve (`~5.5"–6.5"`). Firing order is `1-3-7-2-6-5-4-8`.
 3. **Harmonic Damper (0 oz):** Neutral-balance SFI damper; verify 3-bolt vs. 4-bolt pulley pattern and timing pointer alignment with Fox cover.
 4. **Flywheel / Flexplate (0 oz):** Neutral-balance, matched to chosen transmission (e.g., 157-tooth vs. 164-tooth, 10.5" or 11" clutch).
 5. **Water Pump & Front Accessory Drive:** Match water pump rotation (standard vs. reverse) to timing cover and belt/pulley system (V-belt vs. serpentine).

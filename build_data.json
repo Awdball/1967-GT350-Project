@@ -31,9 +31,30 @@
       "bearings_rod": "Clevite 77 H",
       "bearings_cam": "Dart Coated Cam Bearings",
       "camshaft": {
-        "description": "FordStrokers Custom Hydraulic Roller Billet Camshaft",
-        "specs_verified": false,
-        "notes": "Obtain cam card (duration @ .050, lift, LSA, ICL) and verify distributor gear compatibility (melonized/steel vs bronze)"
+        "brand": "COMP Cams",
+        "part_number": "35-000-9",
+        "grind": "FIEGENER",
+        "description": "COMP Cams Custom Hydraulic Roller Billet Camshaft (FW Ford 351W/302HO Roller)",
+        "firing_order": "1-3-7-2-6-5-4-8",
+        "specs_verified": true,
+        "duration_006_int": 275,
+        "duration_006_exh": 283,
+        "duration_050_int": 226,
+        "duration_050_exh": 234,
+        "lobe_lift_int_in": 0.352,
+        "lobe_lift_exh_in": 0.354,
+        "gross_valve_lift_int_in": 0.563,
+        "gross_valve_lift_exh_in": 0.566,
+        "lsa_deg": 110,
+        "icl_deg": 106,
+        "overlap_050_deg": 10.0,
+        "timing_050": {
+          "int_open_btdc": 6.6,
+          "int_close_abdc": 39.4,
+          "exh_open_bbdc": 50.6,
+          "exh_close_atdc": 3.4
+        },
+        "notes": "Requires melonized/steel/composite distributor gear compatible with billet steel roller cam (NOT cast iron)."
       },
       "timing_set": "SA Gear Billet Timing Chain w/ Torrington Bearing",
       "timing_cover": {

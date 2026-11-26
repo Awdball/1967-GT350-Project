@@ -17,7 +17,7 @@ Build documentation, parts cross-referencing, and compatibility tracking for a *
 ### 1. Engine (Acquired — Undressed Longblock)
 - **Builder / Model:** FordStrokers (Woody) **363 Liberator** (Dart SHP 4-bolt block, `4.125" × 3.400"`, Liberty forged crank, Scat H-beam rods, Wiseco 2618 forged 14cc dish pistons, **`10.2:1` CR**)
 - **Balance:** **Internally Balanced (`0 oz` neutral balance)** — *requires `0 oz` harmonic damper & `0 oz` flywheel/flexplate*
-- **Heads & Valvetrain:** AFR 195 Competition `#1381` (`58cc`, angle-plug, `+0.125"` raised exhaust ports, `7/16"` studs), Trick Flow `1.6` roller rockers, Morel `#5323` link-bar hydraulic roller lifters, FordStrokers custom billet hydraulic roller cam *(cam card specs TBD)*
+- **Heads & Valvetrain:** AFR 195 Competition `#1381` (`58cc`, angle-plug, `+0.125"` raised exhaust ports, `7/16"` studs), Trick Flow `1.6` roller rockers, Morel `#5323` link-bar hydraulic roller lifters, **COMP Cams `#35-000-9` ("FIEGENER")** billet hydraulic roller cam (`226°/234° @ .050"`, `.563"/.566"` lift, `110°` LSA, `106°` ICL, `1-3-7-2-6-5-4-8` firing order)
 - **Induction & Valve Covers:** Edelbrock Performer RPM Air-Gap `#7521` (`4150` square-bore, `4.90"` pad height); Ford **"Cobra" solid block-letter** cast aluminum valve covers *(verify rocker/baffle clearance)*
 - **Oiling & Timing Cover:** Moroso `#20535` 7-qt road-race baffled front-sump pan (`8.0"` deep, passenger kickout, pan-mounted dipstick) + Melling `M68` pump; Fox Body timing cover (**no fuel pump eccentric installed**)
 
