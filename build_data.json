@@ -1,0 +1,390 @@
+{
+  "project": {
+    "name": "1967 Shelby GT350 Restomod",
+    "primary_use": ["Street", "Autocross", "Road Course"],
+    "philosophy": {
+      "flexibility_priority": "high",
+      "mechanical_fallback": "Must be able to revert to a 100% mechanical setup with minimal work in a SHTF scenario",
+      "serviceability": "Diagnosable and fixable by a shade-tree mechanic",
+      "budget_context": "Significant spend already in bodywork; prioritize cost-effective carbureted/mechanical path without sacrificing quality or causing future re-work"
+    },
+    "fuel_type": "Gasoline (Pump Gas 91-93 Octane)"
+  },
+  "engine": {
+    "status": "acquired_undressed",
+    "builder": "FordStrokers.com (Woody)",
+    "model": "363 Liberator Dart Longblock",
+    "displacement_ci": 363,
+    "bore_in": 4.125,
+    "stroke_in": 3.400,
+    "rod_length_in": 5.400,
+    "compression_ratio": 10.2,
+    "balance": "internal_0_oz",
+    "deck_height_in": 8.200,
+    "components": {
+      "block": "Dart SHP Machined Block (4-bolt mains, 1/2\" head studs, screw-in galley plugs)",
+      "crankshaft": "Liberty 4340 Forged Steel 3.400\"",
+      "connecting_rods": "Scat 4340 Forged Steel H-Beam 5.400\"",
+      "pistons": "Wiseco 2618 Forged 4.125\" (14cc Dish, Inline)",
+      "rings": "Wiseco GFX Ring Package",
+      "bearings_main": "Clevite 77 H",
+      "bearings_rod": "Clevite 77 H",
+      "bearings_cam": "Dart Coated Cam Bearings",
+      "camshaft": {
+        "description": "FordStrokers Custom Hydraulic Roller Billet Camshaft",
+        "specs_verified": false,
+        "notes": "Obtain cam card (duration @ .050, lift, LSA, ICL) and verify distributor gear compatibility (melonized/steel vs bronze)"
+      },
+      "timing_set": "SA Gear Billet Timing Chain w/ Torrington Bearing",
+      "timing_cover": {
+        "description": "Fox Body Timing Chain Cover",
+        "specs_verified": false,
+        "notes": "Verify if carbureted Fox cover (with mechanical fuel pump boss) or EFI Fox cover (no boss), and confirm reverse vs standard water pump rotation"
+      },
+      "fuel_pump_eccentric": {
+        "installed": false,
+        "notes": "Confirmed NOT installed (originally planned EFI). Must either pull timing cover to install eccentric + carb-boss cover for mechanical pump, or run regulated electric pump."
+      },
+      "oil_pump": "Melling M68 w/ ARP bolts & ARP billet shaft",
+      "oil_pickup": "Moroso 24523",
+      "oil_pan": {
+        "part_number": "Moroso 20535",
+        "capacity_qt": 7.0,
+        "depth_in": 8.0,
+        "sump_type": "front_sump",
+        "kickout": "passenger_side",
+        "baffling": "road_race_4_trap_doors",
+        "dipstick": "pan_mounted_passenger_side_universal",
+        "chassis_notes": "Fits classic front-steer Mustang; verify clearance with Unisteer UNI-8010830-01 rack"
+      },
+      "cylinder_heads": {
+        "part_number": "AFR 1381 (195cc Competition Renegade)",
+        "chamber_cc": 58,
+        "intake_port_cc": 195,
+        "exhaust_port_cc": 70,
+        "exhaust_port_raise_in": 0.125,
+        "plug_style": "angle_plug",
+        "valve_cover_pattern": "perimeter_bolt",
+        "stud_size": "7/16\"",
+        "springs": "8019 Hyd Roller Dual Springs"
+      },
+      "lifters": "Morel 5323 Hyd Roller Link-Bar",
+      "pushrods": "4130 Chromoly .080\" wall 1-piece formed-end",
+      "rocker_arms": "Trick Flow 1.6 Ratio Roller Rockers (7/16\" stud)",
+      "head_gaskets": "Fel-Pro MLS 1134",
+      "head_studs": "ARP 1/2\"",
+      "intake_manifold": {
+        "part_number": "Edelbrock 7521 (Performer RPM Air-Gap)",
+        "flange": "4150_square_bore",
+        "style": "dual_plane",
+        "height_front_in": 4.30,
+        "height_rear_in": 5.50,
+        "height_carb_pad_in": 4.90
+      }
+    }
+  },
+  "critical_compatibility_rules": [
+    "Harmonic damper and flywheel/flexplate MUST be 0 oz internal/neutral balance.",
+    "NO fuel pump eccentric is installed; mechanical fuel pump requires pulling timing cover to add eccentric (and carb-boss cover if current Fox cover lacks boss).",
+    "Power steering pump MUST be 1,100 PSI low-flow (e.g., valved Type-II/Saginaw) to match Unisteer UNI-8010830-01 rack.",
+    "Distributor gear MUST be compatible with billet steel hydraulic roller camshaft.",
+    "Front wheels MUST be 17-inch or larger (and verified with SOT fitment template) to clear SOT-13X125-2PC-4P-ALUM-LEADING 13\" brakes.",
+    "Rear 9\" axle housing MUST have Torino (Big Ford New-Style) bearing ends to fit ST-12BKR-T rear brakes.",
+    "Brakes use a 1\" bore manual tandem master cylinder (WIL-261-15544-BK) — no vacuum booster required.",
+    "Oil pan Moroso 20535 is front-sump (8\" deep, passenger kickout) — verify clearance with Unisteer UNI-8010830-01 rack; requires universal passenger-side pan dipstick.",
+    "AFR 1381 heads have angle plugs and 0.125\" raised exhaust ports — verify header & spark plug boot clearance with shock towers and Unisteer/IDIDIT steering shaft.",
+    "Trick Flow 1.6 roller rockers require tall/cleared perimeter-bolt valve covers.",
+    "Edelbrock 7521 Air-Gap has a 4.90\" carb pad height — verify 1967 Shelby hood and SOT-QRSTB Monte Carlo bar clearance.",
+    "Rear axle is 1964-66 Mustang width (2\" narrower than 1967) with Mustangs to Fear mini-tubs moved to frame rails — account for narrower WMS-to-WMS when calculating rear wheel backspacing.",
+    "Rear axle uses 31-spline shafts and 1/2\"-20 x 3\" studs (requires open-ended lug nuts) — 9\" third member MUST be 31-spline.",
+    "Holley Mid-Mount SBF accessory drive requires grinding designated timing-cover wall + Holley 97-436 PS relocation kit + remote reservoir to run BOTH a mechanical fuel pump and power steering, plus fuel pump eccentric and 0 oz damper spacer check.",
+    "Modern Driveline TKX kit flywheel MUST be 0 oz neutral balance.",
+    "Cobra solid block-letter valve covers must be clay-checked for clearance over Trick Flow 1.6 roller rockers and internal oil baffles."
+  ],
+  "parts": [
+    {
+      "id": "eng-363-liberator",
+      "system": "engine",
+      "status": "acquired",
+      "brand": "FordStrokers",
+      "part_number": "363 Liberator",
+      "description": "363ci Dart SHP Longblock w/ AFR 195 #1381 heads & Edelbrock #7521 Air-Gap",
+      "notes": "Internally balanced (0 oz). No fuel pump eccentric installed. Needs dressing."
+    },
+    {
+      "id": "eng-cobra-valvecovers",
+      "system": "engine",
+      "status": "acquired",
+      "brand": "Ford",
+      "part_number": "Cobra Block-Letter Valve Covers",
+      "description": "Ford Cobra solid block-lettered cast aluminum valve covers",
+      "notes": "Verify clearance over Trick Flow 1.6 roller rockers and internal baffles (clay-check)."
+    },
+    {
+      "id": "exh-fpa-headers",
+      "system": "exhaust",
+      "status": "acquired",
+      "brand": "FPA (Stan)",
+      "part_number": "Custom 363 / AFR 195 Headers",
+      "description": "Custom ceramic-coated headers built for 363, AFR 195, manual trans, Unisteer rack, and IDIDIT column"
+    },
+    {
+      "id": "fuel-mtf-tank",
+      "system": "fuel_induction",
+      "status": "acquired",
+      "brand": "Mustangs to Fear",
+      "part_number": "MTF Side-Fill Fuel Tank",
+      "description": "Side-fill fuel tank"
+    },
+    {
+      "id": "fuel-radium-filler",
+      "system": "fuel_induction",
+      "status": "acquired",
+      "brand": "Radium Engineering",
+      "part_number": "Sail-Panel Fuel Filler Neck",
+      "description": "Rear sail-panel mounted fuel-filler neck",
+      "notes": "Still needs filler piping/hose to connect to MTF side-fill tank"
+    },
+    {
+      "id": "acc-holley-midmount",
+      "system": "accessory_drive",
+      "status": "shortlisted",
+      "brand": "Holley",
+      "part_number": "Mid-Mount SBF",
+      "description": "Holley Mid-Mount Small Block Ford accessory drive",
+      "notes": "Has mech fuel pump boss; requires Holley 97-436 PS relocation + remote reservoir + cover clearance mod to run mech pump & PS together, plus 0 oz damper spacer & 1,100 PSI PS valving."
+    },
+    {
+      "id": "acc-vintageair-frontrunner",
+      "system": "accessory_drive",
+      "status": "ruled_out",
+      "brand": "Vintage Air",
+      "part_number": "Front Runner SBF",
+      "description": "Vintage Air Front Runner SBF",
+      "notes": "Ruled out: EFI-only (no mechanical fuel pump provision)."
+    },
+    {
+      "id": "trans-mdl-tkx",
+      "system": "drivetrain_transmission",
+      "status": "shortlisted",
+      "brand": "Modern Driveline",
+      "part_number": "Tremec TKX Swap Kit",
+      "description": "Complete auto-to-manual TKX 5-speed kit (bellhousing, clutch, TOB, mount)",
+      "notes": "Must specify 0 oz neutral-balance flywheel."
+    },
+    {
+      "id": "trans-toploader-4spd",
+      "system": "drivetrain_transmission",
+      "status": "acquired",
+      "brand": "Ford",
+      "part_number": "4-Speed Toploader",
+      "description": "4-speed Toploader (unknown gearset, no bellhousing)",
+      "notes": "Spare / uninstalled; planning TKX swap instead."
+    },
+    {
+      "id": "body-mtf-rollbar",
+      "system": "chassis_body",
+      "status": "acquired",
+      "brand": "Mustangs to Fear",
+      "part_number": "Shelby-Style Roll Bar",
+      "description": "Mustangs to Fear Shelby-style roll bar"
+    },
+    {
+      "id": "int-factory-seats",
+      "system": "interior",
+      "status": "acquired",
+      "brand": "Ford OEM (Refurbished)",
+      "part_number": "Refurbished Factory Seats",
+      "description": "Refurbished 1967 Mustang factory seats"
+    },
+    {
+      "id": "wheels-augment-3pc",
+      "system": "wheels_tires",
+      "status": "shortlisted",
+      "brand": "Augment Wheel Company",
+      "part_number": "Custom 3-Piece Wheels",
+      "description": "Custom 3-piece wheels (17\"+, 5x4.5, open-ended lugs)",
+      "notes": "Pending remote car measurements & SOT front brake fitment template."
+    },
+    {
+      "id": "susp-sot-export",
+      "system": "chassis_suspension",
+      "status": "acquired",
+      "brand": "Street or Track",
+      "part_number": "SOT-EXPORT",
+      "order_ref": "Order #6942",
+      "description": "Billet Export Brace (1965-70 Mustang, 1967-70 Cougar)"
+    },
+    {
+      "id": "susp-sot-qrstb",
+      "system": "chassis_suspension",
+      "status": "acquired",
+      "brand": "Street or Track",
+      "part_number": "SOT-QRSTB",
+      "order_ref": "Order #6942",
+      "description": "Quick Release Monte Carlo Bar (1965-70 Mustang, 1967-70 Cougar)",
+      "notes": "Check clearance with Edelbrock 7521 Air-Gap & air cleaner"
+    },
+    {
+      "id": "susp-sot-package1",
+      "system": "chassis_suspension",
+      "status": "acquired",
+      "brand": "Street or Track",
+      "part_number": "SOT-PACKAGE1",
+      "order_ref": "Invoice #1016",
+      "description": "1965-73 Mustang Front & Rear Coilover System"
+    },
+    {
+      "id": "susp-sot-3link-bracket",
+      "system": "chassis_suspension",
+      "status": "acquired",
+      "brand": "Street or Track",
+      "part_number": "SOT-3LINK-U-BRACKET-FIXTURE",
+      "order_ref": "Invoice #1016",
+      "description": "3-Link 'U' Bracket Fixture"
+    },
+    {
+      "id": "susp-scd-swaybar",
+      "system": "chassis_suspension",
+      "status": "acquired",
+      "brand": "Scott Drake / Street or Track",
+      "part_number": "SCD-C7ZZ-5482-B",
+      "order_ref": "Invoice #1016",
+      "description": "67-70 1-1/8\" Front Sway Bar"
+    },
+    {
+      "id": "susp-sot-bbspindle",
+      "system": "suspension_hubs",
+      "status": "acquired",
+      "brand": "Street or Track",
+      "part_number": "SOT-BBSPINDLE",
+      "order_ref": "Order #9458 / Invoice #6802",
+      "description": "Billet Big Drop Spindles",
+      "notes": "Paired with Timken SET12, SET13, 6815 seals, 5194 70-73 spindle lock nut kit, Dust Cap (Pair)"
+    },
+    {
+      "id": "susp-joe40050",
+      "system": "tools",
+      "status": "acquired",
+      "brand": "Joe's Racing",
+      "part_number": "JOE40050",
+      "order_ref": "Invoice #1016",
+      "description": "Upper & Lower Ball Joint Socket"
+    },
+    {
+      "id": "steer-uni-8010830-01",
+      "system": "steering",
+      "status": "acquired",
+      "brand": "Unisteer",
+      "part_number": "UNI-8010830-01",
+      "order_ref": "Invoice #1016",
+      "description": "Unisteer Power Rack & Pinion for Late 67-70 Mustang",
+      "notes": "Requires 1,100 PSI low-flow PS pump; 18mm/-6AN pressure, 16mm/-6AN(-8AN) return; 17mm DD pinion"
+    },
+    {
+      "id": "steer-sot-droptierods",
+      "system": "steering",
+      "status": "acquired",
+      "brand": "Street or Track",
+      "part_number": "SOT-DROPTIERODS",
+      "order_ref": "Order #7063",
+      "description": "Tie Rod Swap for Unisteer rack & SOT Drop Spindles (New Style)"
+    },
+    {
+      "id": "steer-idi-1120643051",
+      "system": "steering",
+      "status": "acquired",
+      "brand": "IDIDIT",
+      "part_number": "IDI-1120643051",
+      "order_ref": "Invoice #1016",
+      "description": "IDIDIT Retrofit 1967 Mustang Tilt Steering Column (Black Powder Coated)"
+    },
+    {
+      "id": "brake-wil-261-15544-bk",
+      "system": "brakes",
+      "status": "acquired",
+      "brand": "Wilwood",
+      "part_number": "WIL-261-15544-BK",
+      "order_ref": "Invoice #1016",
+      "description": "Compact Tandem M/C w/ Bracket and Proportioning Valve (Black, 1\" Bore)",
+      "notes": "Manual brake setup"
+    },
+    {
+      "id": "brake-sot-front-13",
+      "system": "brakes",
+      "status": "acquired",
+      "brand": "Street or Track",
+      "part_number": "SOT-13X125-2PC-4P-ALUM-LEADING",
+      "order_ref": "Invoice #1016",
+      "description": "13\" x 1.25\" 2-Piece Rotor 4-Piston Forged Aluminum Caliper Front Brake System (Leading)",
+      "notes": "Requires 17\"+ wheels; verify clearance with SOT template"
+    },
+    {
+      "id": "brake-st-12bkr-t",
+      "system": "brakes",
+      "status": "acquired",
+      "brand": "Street or Track",
+      "part_number": "ST-12BKR-T",
+      "order_ref": "Invoice #1016",
+      "description": "12\" x .810\" Rear Brake System for Torino Bearing",
+      "notes": "Matched to Quick Performance 9\" Billet Torino 3/8\" housing ends"
+    },
+    {
+      "id": "axle-qp-6466-9in",
+      "system": "drivetrain_rear_axle",
+      "status": "acquired",
+      "brand": "Quick Performance",
+      "part_number": "1964-1966 Mustang 9\" Housing & Axle Package",
+      "description": "Fabricated Big Web 9\" housing (64-66 width, 2\" narrower than 67), 1/4\" heavy-wall tubes, drain/fill plugs w/ jack pad, Billet Torino 3/8\" ends, 31-spline QP alloy axles, 5x4.5, 1/2\"-20 x 3\" studs, access hole",
+      "notes": "Paired with Mustangs to Fear mini-tubs moved to frame rails and SOT 3-link coilovers (perches not welded)."
+    },
+    {
+      "id": "diff-eaton-truetrac-370",
+      "system": "drivetrain_rear_axle",
+      "status": "acquired",
+      "brand": "Eaton",
+      "part_number": "B01M6Z8SYZ (31-Spline Truetrac 3.70)",
+      "description": "Assembled Ford 9\" 31-Spline Eaton Detroit Truetrac Third Member Differential (3.70:1 gear ratio, 1350 Billet Yoke & U-Bolts)",
+      "notes": "Helical gear LSD (no clutches, 100% mechanical). Matches QP 31-spline axles. Spec 1350 rear U-joint for custom driveshaft."
+    },
+    {
+      "id": "body-mtf-minitubs",
+      "system": "chassis_body",
+      "status": "acquired_installing",
+      "brand": "Mustangs to Fear",
+      "part_number": "MTF Mini-Tubs",
+      "description": "Mini-tubs moved inward to frame rails",
+      "notes": "Provides maximum inward tire clearance without cutting frame rails"
+    },
+    {
+      "id": "carb-fr-76750hb",
+      "system": "fuel_induction",
+      "status": "shortlisted",
+      "brand": "Holley",
+      "part_number": "FR-76750HB",
+      "description": "Holley Ultra Double Pumper 750 CFM Refurbished (Hard Core Gray / Black billet, Electric choke)",
+      "price_usd": 562.95,
+      "notes": "4150 square-bore, mechanical secondaries, Ford A/T kickdown compatible"
+    },
+    {
+      "id": "carb-fr-4779ce",
+      "system": "fuel_induction",
+      "status": "shortlisted",
+      "brand": "Holley",
+      "part_number": "FR-4779CE",
+      "description": "Holley Classic 4150 Double Pumper 750 CFM Refurbished (Gold Dichromate, Electric choke)",
+      "price_usd": 487.95,
+      "notes": "Period-correct finish; FR-4779C ($460.95) is manual choke variant"
+    },
+    {
+      "id": "carb-frbr-67213",
+      "system": "fuel_induction",
+      "status": "shortlisted",
+      "brand": "Brawler",
+      "part_number": "FRBR-67213",
+      "description": "Brawler Street 750 CFM Refurbished (Polished/Black billet, Electric choke)",
+      "price_usd": 342.95,
+      "notes": "Budget street option"
+    }
+  ]
+}
