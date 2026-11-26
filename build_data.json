@@ -168,6 +168,24 @@
       "notes": "Still needs filler piping/hose to connect to MTF side-fill tank"
     },
     {
+      "id": "cool-dewitts-24m",
+      "system": "cooling",
+      "status": "shortlisted",
+      "brand": "DeWitts",
+      "part_number": "32-4138006M / 32-SP8007",
+      "description": "DeWitts Pro-Series 24.5\" x 16\" 2-Row (1\" tubes) Manual Aluminum Radiator + 32-SP8007 Dual 12\" SPAL Fan & Shroud Kit",
+      "notes": "Epoxy-free furnace-brazed core (Natural or Black Ice finish). 1.50\" upper passenger inlet, 1.75\" lower driver outlet (matches Holley Mid-Mount modular inlet). Dual 12\" SPAL pullers (~2,200 CFM, ~3.0\" depth, relays/harness/sensor included) allow staged temp + A/C operation. Uses 24\" core support brackets (no cutting)."
+    },
+    {
+      "id": "cool-coldcase-fom587k",
+      "system": "cooling",
+      "status": "shortlisted",
+      "brand": "Cold Case",
+      "part_number": "FOM587K",
+      "description": "Cold Case 24\" 2-Row (1\" tubes) Manual Aluminum Radiator + Shroud + Dual 12\" Fan Kit",
+      "notes": "Budget alternative to DeWitts."
+    },
+    {
       "id": "acc-holley-midmount",
       "system": "accessory_drive",
       "status": "shortlisted",

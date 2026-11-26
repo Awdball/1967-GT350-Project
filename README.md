@@ -55,7 +55,7 @@ Build documentation, parts cross-referencing, and compatibility tracking for a *
 1. **Engine Dressing & Accessory Drive (Shortlisted: Holley Mid-Mount SBF):**
    - To run both a **mechanical fuel pump** and **power steering** on the Holley Mid-Mount, you must install a **fuel pump eccentric**, grind the designated timing cover clearance wall, and add **Holley `97-436` PS Relocation Kit + remote reservoir**.
    - Match your **`0 oz` harmonic damper** with the correct Holley crank spacer (`97-446`/`447`/`448`), and ensure the PS pump is valved to **1,100 PSI low-flow** for the Unisteer rack.
-2. **Cooling (Needed):** Aluminum crossflow radiator (`20"` vs. `24"` core support width TBD) + staged **dual SPAL puller fans** on a full shroud with dual-relay thermostatic control (requires `100A+` alternator).
+2. **Cooling (Shortlisted — Texas A/C + Road Course):** **DeWitts `24.5"` Pro-Series Manual Radiator** (`32-4138006M` / Black Ice™) + **`32-SP8007` Dual 12" SPAL Fan & Shroud Kit** (`~2,200 CFM`, dual relays, staged for temp + A/C; uses `24"` core-support brackets with zero cutting). Budget alt: **Cold Case `FOM587K`**. *(Holley Mid-Mount cannot run a mechanical clutch fan).*
 3. **Ignition & Electrical (Needed):** Billet-cam-compatible distributor gear (melonized/steel per FordStrokers cam spec) + shade-tree-serviceable ignition.
 4. **Clearance Checks Before Final Assembly:**
    - Moroso `#20535` front-sump pan (`8.0"` deep) vs. Unisteer rack

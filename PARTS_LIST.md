@@ -19,7 +19,8 @@
 | :--- | :--- | :--- | :--- |
 | **Shortlisted** | `Mid-Mount SBF Accessory Drive` | Holley | Compact OEM-look serpentine kit with **mechanical fuel pump boss**. **Critical Notes:** (1) Default Type-II PS pump location blocks mechanical fuel pump lever — requires grinding designated cover wall + **Holley `97-436` PS Relocation Kit** + remote reservoir; (2) Must add **fuel pump eccentric** to cam; (3) Match **0 oz** damper w/ Holley crank spacer (`97-446`/`447`/`448`); (4) Valve PS pump to **1,100 PSI low-flow** for Unisteer rack. |
 | **Ruled Out** | `Front Runner SBF` | Vintage Air | EFI-only (no mechanical fuel pump provision). |
-| **Researching** | `Aluminum Radiator + Dual SPAL Puller Fans` | TBD (e.g., Cold Case / DeWitts / Wizard + SPAL) | Verify `20"` vs. `24"` core support width on '67 chassis and pulley-to-core depth. Dual 11"/12" SPAL puller fans on full shroud w/ dual-relay thermostatic staging (simple 12V shade-tree wiring; requires `100A+` alternator). |
+| **Shortlisted** | `32-4138006M` + `32-SP8007` *(or combo)* | DeWitts | **Premium Texas / A/C / Road-Course Choice:** Pro-Series `24.5" × 16"` (`25.25" × 21.25"` overall) 2-row `1.00"` tube epoxy-free furnace-brazed manual radiator (Natural or **Black Ice™** finish; `1.50"` upper passenger inlet, `1.75"` lower driver outlet — matches Holley Mid-Mount modular lower inlet).<br>**Fans:** Pair bare `24.5"` manual core with **`32-SP8007`** (`24.5" × 16"` aluminum shroud, **dual 12" SPAL pullers**, `~2,200 CFM`, `~3.0"` depth, relays/harness/temp sensor included — stage Fan 1 on temp switch & Fan 2 on A/C/high-temp). *(Or `32-4138006M` turnkey single-16" `2,360 CFM` module).* Requires `24"` core-support brackets/insulators (no cutting). |
+| **Shortlisted (Budget Alt)** | `FOM587K` | Cold Case | `24"` 2-row (`1"` tubes) TIG-welded aluminum manual radiator + shroud + dual 12" fans. Lower-cost alternative if prioritizing budget. |
 
 ---
 
