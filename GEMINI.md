@@ -16,7 +16,7 @@ This file is automatically loaded by Antigravity at the start of every conversat
 - **Vehicle:** 1967 Shelby GT350 (Restomod)
 - **Primary Use / Intent:** Street & Autocross / Road Course
 - **Core Philosophy:** Maximum flexibility — ability to revert to a 100% mechanical setup with minimal work in a SHTF scenario; diagnosable and serviceable by a shade-tree mechanic.
-- **Aesthetic / Finish Direction:** Period-correct GT350 / Cobra look or clean restomod (keeping 302-deck 363ci for authentic GT350 proportions)
+- **Aesthetic / Finish Direction:** **Ford Antimatter Blue** exterior; period-correct GT350 / Cobra look or clean restomod (keeping 302-deck 363ci for authentic GT350 proportions)
 - **Engine:** FordStrokers 363 Liberator (Dart SHP block, 4.125" x 3.400", **Internally Balanced 0 oz**, ~10.2:1 CR) — see [`ENGINE_SPEC.md`](./ENGINE_SPEC.md) & [`build_data.json`](./build_data.json)
   - **Heads / Intake:** AFR 195 Competition `#1381` (58cc, angle-plug, +0.125" raised exhaust ports, 7/16" studs, Trick Flow 1.6 rockers) / Edelbrock RPM Air-Gap `#7521` (4150 flange, 4.90" pad height)
   - **Camshaft / Idle Vacuum:** COMP Cams Custom Billet Hyd Roller `#35-000-9` ("FIEGENER"): `226°/234° @ .050"`, `.563"/.566"` lift, `110°` LSA, `106°` ICL, `1-3-7-2-6-5-4-8` firing order *(requires melonized/steel/composite distributor gear)*

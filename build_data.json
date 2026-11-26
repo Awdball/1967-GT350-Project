@@ -1,6 +1,7 @@
 {
   "project": {
     "name": "1967 Shelby GT350 Restomod",
+    "exterior_color": "Ford Antimatter Blue",
     "primary_use": ["Street", "Autocross", "Road Course"],
     "philosophy": {
       "flexibility_priority": "high",
@@ -376,6 +377,15 @@
       "part_number": "MTF Mini-Tubs",
       "description": "Mini-tubs moved inward to frame rails",
       "notes": "Provides maximum inward tire clearance without cutting frame rails"
+    },
+    {
+      "id": "body-conv-rockers-seatpan",
+      "system": "chassis_body",
+      "status": "acquired",
+      "brand": "Ford / Restomod",
+      "part_number": "Convertible Rockers & Seat Pan Retrofit",
+      "description": "Convertible inner rockers and seat pan retrofitted into fastback chassis",
+      "notes": "Added for torsional/chassis rigidity alongside MTF mini-tubs and Shelby roll bar"
     },
     {
       "id": "carb-fr-76750hb",

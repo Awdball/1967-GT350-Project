@@ -82,6 +82,8 @@
 | :--- | :--- | :--- | :--- |
 | **Shortlisted / Planned** | `Custom 3-Piece Wheels` | Augment Wheel Company | Must be **`17"+` diameter**, `5×4.5"` bolt pattern, open-ended lug nuts (for `3"` studs), and cleared with **SOT front brake template** + `'64–'66` narrower 9" + MTF mini-tubs. *(Pending remote car measurements).* |
 | **Selected / Purchased** | `MTF Mini-Tubs` | Mustangs to Fear | Moved inward to frame rails for maximum rear tire clearance. |
+| **Selected / Purchased** | `Convertible Rockers & Seat Pan Retrofit` | OEM / Restomod | Convertible inner rockers and seat pan retrofitted into fastback chassis for added rigidity. |
+| **Completed** | `Exterior Paint — Antimatter Blue` | Ford (Modern Color) | Car painted in modern Ford **Antimatter Blue**. |
 | **Selected / Purchased** | `Shelby-Style Roll Bar` | Mustangs to Fear | Installed / acquired for chassis safety & Shelby aesthetic. |
 | **Selected / Purchased** | `Refurbished Factory Seats` | OEM / Refurbished | Restored factory seats. |
 
