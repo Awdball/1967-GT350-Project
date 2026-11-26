@@ -3,7 +3,25 @@
 ## Status Legend
 - **Selected / Purchased**
 - **Shortlisted**
+- **Need to Acquire** *(see consolidated shopping/watchlist below)*
 - **Ruled Out**
+
+---
+
+## Need to Acquire (Consolidated Shopping & Argos Watchlist)
+
+| Priority | System | Item / Part Number | Target Specs & Compatibility Notes |
+| :--- | :--- | :--- | :--- |
+| **High** | **Cooling** | **DeWitts `32-4138006M` (bare `24.5"` manual core) + `32-SP8007`** *(or Cold Case `FOM587K`)* | `24.5" × 16"` 2-row (`1"` tubes) manual aluminum radiator (Natural or Black Ice™) + Dual 12" SPAL pullers & shroud (`~2,200 CFM`, relays/harness/sensor included) + `'67` `24"` radiator brackets/insulators. |
+| **High** | **Accessory Drive** | **Holley Mid-Mount SBF (`20-370` / `20-370BK`)** + **`97-436` PS Relocation** + Remote PS Reservoir | Compact serpentine w/ 150A alternator, SD7 A/C, & mech fuel pump pad. Valve PS pump to **1,100 PSI low-flow** for Unisteer rack. |
+| **High** | **Engine Dressing** | **0 oz SFI Harmonic Damper** + **Holley Crank Spacer (`97-446`/`447`/`448`)** | **MUST be `0 oz` neutral balance**; match 3-bolt vs. 4-bolt pattern to Holley spacer. |
+| **High** | **Engine Dressing** | **Fuel Pump Eccentric** + **Mechanical Fuel Pump** | Add eccentric when swapping to Holley Mid-Mount cover; grind designated cover wall for pump lever. |
+| **High** | **Engine Dressing** | **Billet-Compatible Distributor** + Ignition | **MUST have melonized/steel/composite gear** for COMP `#35-000-9` billet roller cam (`1-3-7-2-6-5-4-8`). |
+| **High** | **Engine Dressing** | **Moroso Pan-Mounted Dipstick** (`25970`/`25971`/`25973`) | Passenger-side sump dipstick for Moroso `#20535`. |
+| **High** | **Fuel / Induction** | **750 CFM 4150 Double Pumper Carb** (`FR-76750HB` / `FR-4779CE` / `FRBR-67213`) + Drop-Base Air Cleaner | Mechanical secondaries; verify air cleaner clearance under `'67` Shelby hood & `SOT-QRSTB` Monte Carlo bar. |
+| **Medium** | **Fuel Plumbing** | **Filler Piping/Hose** (Radium sail-panel neck to MTF side-fill tank) + Fuel Lines | Connect Radium neck to MTF tank; plumb mech pump to 4150 carb. |
+| **Medium** | **Drivetrain** | **Modern Driveline Tremec TKX Swap Kit** + Custom Driveshaft | **MUST specify `0 oz` neutral-balance flywheel**; spec **`1350` rear U-joint** for 9" billet yoke. |
+| **Medium** | **Wheels & Tires** | **Augment Wheel Co. Custom 3-Piece Wheels** (`17"+`, `5×4.5`) + Open-Ended Lug Nuts | Verify w/ SOT 13" front brake template, `'64–'66` narrower 9", MTF mini-tubs, and `1/2"-20 × 3"` studs. |
 
 ---
 
