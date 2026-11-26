@@ -19,7 +19,7 @@
 | **Rocker Arms** | Trick Flow 1.6 Roller Rockers (7/16") | Requires tall or baffled-cleared perimeter-bolt valve covers. |
 | **Intake Manifold** | Edelbrock Performer RPM Air-Gap (`#7521`) | 4150 square-bore flange; **4.90" carb pad height** (4.30" front / 5.50" rear). Check 1967 Shelby hood & air-cleaner drop-base clearance. |
 | **Oil Pan & Pickup** | Moroso 7-qt (`#20535`) + Pickup (`#24523`) | **Front-sump**, 8.0" deep, passenger-side kickout, road-race baffled (4 trap doors). Fits classic front-steer Mustang; **does NOT fit Mustang II / rack-and-pinion** without clearance check. Uses **pan-mounted passenger-side dipstick** (e.g., Moroso 25970/25971/25973). |
-| **Timing Cover** | Fox Body Timing Chain Cover | **VERIFY:** Standard 86–93 EFI Fox covers lack a mechanical fuel pump pad (79–85 carb Fox or early SBF covers have one). Also dictates **reverse-rotation** water pump (serpentine) vs. standard-rotation (V-belt) and timing pointer position. |
+| **Timing Cover** | **1986–1993 EFI Fox Body Timing Cover** (visually confirmed) | **No mechanical fuel pump boss/pad** on this cover. Replacing it with the **Holley Mid-Mount** cover provides the mechanical fuel pump pad (still requires adding a fuel pump eccentric + `97-436` PS relocation + grinding cover clearance wall). |
 | **Fuel Pump Eccentric** | **NOT INSTALLED** (per owner; originally planned EFI) | **DECISION NEEDED:** To run a 100% mechanical fuel pump, pull the Fox cover now (while engine is on stand) to install an eccentric and verify/swap to a cover with a mechanical fuel pump boss. Otherwise, keep the Fox cover and run a low-pressure electric fuel pump + regulator for carb. |
 | **Camshaft** | COMP Cams Custom Billet Hyd Roller (`#35-000-9`, Grind: `"FIEGENER"`) | **`226° / 234°` @ `.050"`**, `.563" / .566"` lift (w/ 1.6 rockers), `110°` LSA, `106°` ICL, **351W/302HO firing order (`1-3-7-2-6-5-4-8`)**. Requires **melonized/steel/composite distributor gear** (NOT cast iron). |
 
@@ -83,7 +83,7 @@
 ## Dressing & Verification Checklist (Still Needed for Engine)
 1. **Timing Cover & Fuel Pump Eccentric (NO Eccentric Installed):** Decide between (A) pulling the Fox cover now to add an eccentric + carb-style timing cover for a 100% mechanical pump, or (B) keeping the Fox cover and running a simple, regulated low-pressure electric fuel pump. Also verify Fox cover water pump rotation.
 2. **Cam Card Recorded (`#35-000-9` "FIEGENER"):** Confirm idle manifold vacuum on initial startup to finalize carb power valve (`~5.5"–6.5"`). Firing order is `1-3-7-2-6-5-4-8`.
-3. **Harmonic Damper (0 oz):** Neutral-balance SFI damper; verify 3-bolt vs. 4-bolt pulley pattern and timing pointer alignment with Fox cover.
+3. **Harmonic Damper (0 oz — None Installed Yet):** Crank snout is currently bare; buy a **0 oz neutral-balance SFI damper** matched directly to your chosen accessory drive (e.g., Holley Mid-Mount crank spacer `97-446`/`447`/`448`).
 4. **Flywheel / Flexplate (0 oz):** Neutral-balance, matched to chosen transmission (e.g., 157-tooth vs. 164-tooth, 10.5" or 11" clutch).
 5. **Water Pump & Front Accessory Drive:** Match water pump rotation (standard vs. reverse) to timing cover and belt/pulley system (V-belt vs. serpentine).
 6. **Dipstick & Tube:** Universal pan-mounted passenger-side dipstick kit (e.g., Moroso `#25970` / `#25971` / `#25973`) matching Moroso `#20535`.
