@@ -24,7 +24,7 @@ This file is automatically loaded by Antigravity at the start of every conversat
   - **Timing Cover / Fuel Drive:** Fox Body timing cover, **NO fuel pump eccentric installed** *(if using Holley Mid-Mount w/ mechanical fuel pump + PS, must add eccentric, grind timing cover clearance wall, and add Holley `97-436` PS relocation + remote reservoir)*
   - **Valve Covers (Acquired):** Ford "Cobra" solid block-lettered cast aluminum *(verify clearance over Trick Flow 1.6 roller rockers)*
   - **Compression Ratio:** 10.2:1
-- **Fuel Type & Tank:** Gasoline (91–93 pump gas); **MTF Side-Fill Tank + Sail-Panel Radium Engineering Filler Neck (Acquired)** *(piping/hose to tank still needed)*
+- **Fuel Type & Tank:** Gasoline (91–93 pump gas); **MTF Side-Fill Tank w/ Built-In EFI Pump + Sail-Panel Radium Engineering Filler Neck (Acquired)** *(piping/hose to tank still needed; shortlisted **Aeromotive `13301`** bypass regulator to cover 4150 @ `6 PSI`, Weber 48 IDF @ `3.0 PSI`, & Borla EFI @ `43–58 PSI`)*
 - **Exhaust (Acquired):** **FPA (Stan) Custom Ceramic-Coated Headers** — built specifically for `363` + `AFR 195` + manual trans + `UNI-8010830-01` Unisteer rack + `IDI-1120643051` IDIDIT column
 - **Accessory Drive (Shortlisted):** **Holley Mid-Mount SBF** *(has mechanical fuel pump boss; requires `97-436` PS relocation + remote reservoir to run mech pump + PS together, plus 0 oz damper spacer check & 1,100 PSI low-flow PS valving)*
 - **Cooling (Needed):** Aluminum radiator + staged dual SPAL puller fans & shroud *(verify 20" vs 24" '67 core support & pulley-to-core depth)*
@@ -35,7 +35,7 @@ This file is automatically loaded by Antigravity at the start of every conversat
 - **Rear Axle / Gear Ratio:** **Quick Performance 1964–66 Mustang 9" Housing & Axles (Acquired)** — `2"` narrower than '67 for deeper wheel lip w/ **Mustangs to Fear mini-tubs** (moved to frame rails); Fabricated Big Web, `1/4"` heavy-wall tubes (for 3-link welding), **Torino 3/8" ends** (matches `ST-12BKR-T`), **31-spline**, `5x4.5`, `1/2"-20 x 3"` studs. **Third Member (Acquired):** **Eaton Detroit Truetrac 31-Spline, 3.70 Gear** (`B01M6Z8SYZ` — helical gear LSD, no clutches, **1350 Billet Yoke & U-bolts**).
 - **Wheels (Planned):** Custom 3-piece **Augment Wheel Company** (`17"+`, `5x4.5`, open-ended lugs; pending remote car measurements & SOT brake template check)
 - **Interior / Safety (Acquired):** Mustangs to Fear Shelby-style roll bar; refurbished factory seats
-- **Ignition / Electrical:** *(TBD — must support 100% mechanical fallback / shade-tree serviceability; 100A+ alternator recommended for dual SPAL fans)*
+- **Ignition / Electrical:** **Shortlisted:** **MSD `8479`** Pro-Billet Small-Cap Distributor (**melonized/steel gear required** for `#35-000-9` billet cam; clears Weber 48 IDFs) + **MSD `6AL` (`6425`)** + Blaster SS/HVC coil *(100% mechanical today, carries over to Weber 48 IDF or Borla 8-stack)*
 - **Known Constraints:**
   - **0 oz neutral balance** damper and flywheel/flexplate required.
   - **1,100 PSI low-flow** power steering pump required for `UNI-8010830-01` Unisteer rack (match to Fox timing cover / front accessory drive).

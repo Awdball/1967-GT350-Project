@@ -155,8 +155,45 @@
       "system": "fuel_induction",
       "status": "acquired",
       "brand": "Mustangs to Fear",
-      "part_number": "MTF Side-Fill Fuel Tank",
-      "description": "Side-fill fuel tank"
+      "part_number": "MTF Side-Fill Fuel Tank (Built-In EFI Pump)",
+      "description": "Side-fill fuel tank with built-in high-pressure EFI pump",
+      "notes": "Use Aeromotive 13301 bypass regulator + return line for carb/Weber pressure without dropping tank later."
+    },
+    {
+      "id": "fuel-aeromotive-13301",
+      "system": "fuel_induction",
+      "status": "shortlisted",
+      "brand": "Aeromotive",
+      "part_number": "13301",
+      "description": "Universal Bypass Fuel Pressure Regulator (3-20 PSI & 20-65 PSI springs)",
+      "notes": "Covers 4150 carb (6 PSI), Weber 48 IDF (3.0 PSI), and Borla 8-stack EFI (43-58 PSI) with one unit."
+    },
+    {
+      "id": "fuel-carb-cheater",
+      "system": "fuel_induction",
+      "status": "shortlisted",
+      "brand": "Carbureted Innovations",
+      "part_number": "Carb-Cheater",
+      "description": "Closed-loop wideband O2 air-fuel tuning spacer for 4150 carb (~1/2\" tall)",
+      "notes": "Verify 1967 Shelby hood clearance; requires M18x1.5 O2 bung in exhaust."
+    },
+    {
+      "id": "ign-msd-8479",
+      "system": "ignition",
+      "status": "shortlisted",
+      "brand": "MSD",
+      "part_number": "8479",
+      "description": "Pro-Billet Small-Cap Distributor (SBF 289/302, mechanical advance, no vacuum canister)",
+      "notes": "Clears Weber 48 IDFs and 7521/SOT-QRSTB. MUST install melonized/steel gear for COMP #35-000-9 billet cam (1-3-7-2-6-5-4-8)."
+    },
+    {
+      "id": "ign-msd-6al-coil",
+      "system": "ignition",
+      "status": "shortlisted",
+      "brand": "MSD",
+      "part_number": "6425 (6AL) + Blaster SS/HVC",
+      "description": "MSD 6AL Ignition Box + Blaster SS/HVC Coil + 8.5mm Super Conductor Wires",
+      "notes": "Reuses across 4150 carb, Weber 48 IDF, and Borla 8-stack EFI."
     },
     {
       "id": "fuel-radium-filler",

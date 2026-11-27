@@ -16,10 +16,10 @@
 | **High** | **Accessory Drive** | **Holley Mid-Mount SBF (`20-370` / `20-370BK`)** + **`97-436` PS Relocation** + Remote PS Reservoir | Compact serpentine w/ 150A alternator, SD7 A/C, & mech fuel pump pad. Valve PS pump to **1,100 PSI low-flow** for Unisteer rack. |
 | **High** | **Engine Dressing** | **0 oz SFI Harmonic Damper** + **Holley Crank Spacer (`97-446`/`447`/`448`)** | **MUST be `0 oz` neutral balance**; match 3-bolt vs. 4-bolt pattern to Holley spacer. |
 | **High** | **Engine Dressing** | **Fuel Pump Eccentric** + **Mechanical Fuel Pump** | Add eccentric when swapping to Holley Mid-Mount cover; grind designated cover wall for pump lever. |
-| **High** | **Engine Dressing** | **Billet-Compatible Distributor** + Ignition | **MUST have melonized/steel/composite gear** for COMP `#35-000-9` billet roller cam (`1-3-7-2-6-5-4-8`). |
+| **High** | **Engine Dressing** | **MSD `8479` Pro-Billet Small-Cap Distributor** + **MSD `6AL` (`6425`)** + **Blaster SS/HVC Coil** | Small-cap clears Weber 48 IDFs & `7521`/`SOT-QRSTB`; **MUST use melonized/steel gear** for COMP `#35-000-9` billet cam (`1-3-7-2-6-5-4-8`). Reuses across 4150, Weber 48 IDF, and Borla 8-stack. |
 | **High** | **Engine Dressing** | **Moroso Pan-Mounted Dipstick** (`25970`/`25971`/`25973`) | Passenger-side sump dipstick for Moroso `#20535`. |
-| **High** | **Fuel / Induction** | **750 CFM 4150 Double Pumper Carb** (`FR-76750HB` / `FR-4779CE` / `FRBR-67213`) + Drop-Base Air Cleaner | Mechanical secondaries; verify air cleaner clearance under `'67` Shelby hood & `SOT-QRSTB` Monte Carlo bar. |
-| **Medium** | **Fuel Plumbing** | **Filler Piping/Hose** (Radium sail-panel neck to MTF side-fill tank) + Fuel Lines | Connect Radium neck to MTF tank; plumb mech pump to 4150 carb. |
+| **High** | **Fuel / Induction** | **750 CFM 4150 Double Pumper Carb** (`FR-76750HB` / `FR-4779CE` / `FRBR-67213`) + Drop-Base Air Cleaner *(+ optional Carb-Cheater)* | Mechanical secondaries; verify air cleaner clearance under `'67` Shelby hood & `SOT-QRSTB` Monte Carlo bar (esp. w/ `~1/2"` Carb-Cheater spacer). Weld `M18×1.5` O2 bung in exhaust. |
+| **High** | **Fuel Plumbing** | **Aeromotive `13301` Bypass Regulator** + **`-6 AN` Supply & Return Lines** + **Filler Piping** | `3–20 PSI` & `20–65 PSI` springs cover 4150 (`6 PSI`), Weber 48 IDF (`3.0 PSI`), and Borla EFI (`43–58 PSI`) w/ built-in MTF tank EFI pump. Plus Radium-to-MTF filler hose. |
 | **Medium** | **Drivetrain** | **Modern Driveline Tremec TKX Swap Kit** + Custom Driveshaft | **MUST specify `0 oz` neutral-balance flywheel**; spec **`1350` rear U-joint** for 9" billet yoke. |
 | **Medium** | **Wheels & Tires** | **Augment Wheel Co. Custom 3-Piece Wheels** (`17"+`, `5×4.5`) + Open-Ended Lug Nuts | Verify w/ SOT 13" front brake template, `'64–'66` narrower 9", MTF mini-tubs, and `1/2"-20 × 3"` studs. |
 
@@ -113,8 +113,16 @@
 ### Fuel Tank & Plumbing (Acquired / Needed)
 | Status | Part / Package | Brand | Key Specs & Compatibility Notes |
 | :--- | :--- | :--- | :--- |
-| **Selected / Purchased** | `Side-Fill Fuel Tank` | Mustangs to Fear (MTF) | Side-fill tank setup. |
-| **Selected / Purchased** | `Sail-Panel Fuel Filler Neck` | Radium Engineering | Mounted in rear sail panel. **Still Needed:** Filler piping/hose connecting Radium neck to MTF tank, plus fuel lines/pump/regulator. |
+| **Selected / Purchased** | `Side-Fill Fuel Tank (Built-In EFI Pump)` | Mustangs to Fear (MTF) | Side-fill tank with **built-in high-pressure EFI pump** (`~45–60 PSI`). Use **Aeromotive `13301`** bypass regulator + return line for carb (`~6 PSI`) or Weber 48 IDF (`3.0 PSI`) without dropping tank later. |
+| **Selected / Purchased** | `Sail-Panel Fuel Filler Neck` | Radium Engineering | Mounted in driver-side rear sail panel. **Still Needed:** Filler piping/hose connecting Radium neck to MTF tank. |
+| **Shortlisted** | `13301 Universal Bypass Regulator` | Aeromotive | Return-style regulator (`3–20 PSI` & `20–65 PSI` springs included) — covers 4150 (`6 PSI`), Weber 48 IDF (`3.0 PSI`), and Borla 8-stack EFI (`43–58 PSI`). Pair w/ liquid-filled gauge. |
+| **Shortlisted** | `Carb-Cheater` | Carbureted Innovations | Optional wideband-O2 closed-loop tuning spacer (`~1/2"` tall) for 4150 carb; verify `'67` hood clearance & weld `M18×1.5` O2 bung in exhaust. |
+
+### Ignition (Shortlisted)
+| Status | Part / Package | Brand | Key Specs & Compatibility Notes |
+| :--- | :--- | :--- | :--- |
+| **Shortlisted** | `8479` Pro-Billet Small-Cap Distributor | MSD | Small-cap mechanical-advance (no vacuum canister) — clears Weber 48 IDFs & `7521`/`SOT-QRSTB`. **MUST swap to melonized/steel gear** for COMP `#35-000-9` billet cam (`1-3-7-2-6-5-4-8`). |
+| **Shortlisted** | `6AL` (`6425`) + Blaster SS/HVC Coil + 8.5mm Wires | MSD | Carries straight over across 4150 carb, Weber 48 IDF, and Borla 8-stack EFI. |
 
 ### Carburetor (Research in Progress)
 Target baseline explored: **750 CFM, Mechanical Secondaries (Double Pumper), 4150 Square-Bore** (Holley Factory Refurbished catalog) — matches the Edelbrock `#7521` 4150 flange, 363ci displacement, and 100%-mechanical/shade-tree-serviceable philosophy.

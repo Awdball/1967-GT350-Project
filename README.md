@@ -43,8 +43,9 @@ Build documentation, parts cross-referencing, and compatibility tracking for a *
   - **Master Cylinder:** `WIL-261-15544-BK` Wilwood Compact Tandem `1"` Bore Manual M/C w/ proportioning valve (no vacuum booster needed)
 
 ### 5. Fuel System, Body, Interior & Wheels
-- **Fuel Tank & Filler (Acquired):** Mustangs to Fear (MTF) side-fill fuel tank + rear sail-panel mounted **Radium Engineering** fuel-filler neck *(filler piping/hose to tank still needed)*
-- **Carburetor (Shortlisted):** `750 CFM`, 4150 mechanical-secondary Double Pumper (`FR-76750HB`, `FR-4779CE`/`C`, `FRBR-67213`)
+- **Fuel Tank & Filler (Acquired):** Mustangs to Fear (MTF) side-fill fuel tank (**built-in EFI pump**) + rear sail-panel mounted **Radium Engineering** fuel-filler neck *(filler piping/hose to tank still needed)*
+- **Carburetor & Regulator (Shortlisted):** `750 CFM` 4150 Double Pumper (`FR-76750HB`, `FR-4779CE`/`C`, `FRBR-67213`) *(+ optional Carb-Cheater)*; **Aeromotive `13301`** bypass regulator (`3–20` & `20–65 PSI` springs — covers 4150, Weber 48 IDF, & Borla 8-stack EFI)
+- **Ignition (Shortlisted):** **MSD `8479`** small-cap Pro-Billet distributor (**melonized/steel gear** for `#35-000-9` billet cam; clears Weber 48 IDFs) + **MSD `6AL` (`6425`)** + Blaster SS/HVC coil *(reusable across all 3 induction paths)*
 - **Safety & Interior (Acquired):** Mustangs to Fear Shelby-style roll bar; refurbished factory seats
 - **Body & Chassis Rigidity:** Painted **Ford Antimatter Blue**; **Mustangs to Fear (MTF) mini-tubs** (moved to frame rails) + **convertible inner rockers & seat pan** retrofitted for added chassis rigidity
 - **Wheels (Planned):** Custom 3-piece **Augment Wheel Company** (`17"+`, `5×4.5"`, open-ended lugs; pending remote car measurements & SOT front brake template check)
