@@ -83,10 +83,10 @@
 ## Dressing & Verification Checklist (Still Needed for Engine)
 1. **Timing Cover & Fuel Pump Eccentric (NO Eccentric Installed):** Decide between (A) pulling the Fox cover now to add an eccentric + carb-style timing cover for a 100% mechanical pump, or (B) keeping the Fox cover and running a simple, regulated low-pressure electric fuel pump. Also verify Fox cover water pump rotation.
 2. **Cam Card Recorded (`#35-000-9` "FIEGENER"):** Confirm idle manifold vacuum on initial startup to finalize carb power valve (`~5.5"–6.5"`). Firing order is `1-3-7-2-6-5-4-8`.
-3. **Harmonic Damper (0 oz — None Installed Yet):** Crank snout is currently bare; buy a **0 oz neutral-balance SFI damper** matched directly to your chosen accessory drive (e.g., Holley Mid-Mount crank spacer `97-446`/`447`/`448`).
+3. **Harmonic Damper (`0 oz` — Shortlisted: `ATI 918920` + `Holley 97-447`):** Crank snout is currently bare; shortlisted **ATI Super Damper `918920`** (`0 oz`, `4-bolt`, `3.35"` length) + **Holley `97-447`** (`3.375"` / `4-bolt`) spacer (verify belt alignment with straightedge).
 4. **Flywheel / Flexplate (0 oz):** Neutral-balance, matched to chosen transmission (e.g., 157-tooth vs. 164-tooth, 10.5" or 11" clutch).
 5. **Water Pump & Front Accessory Drive:** Match water pump rotation (standard vs. reverse) to timing cover and belt/pulley system (V-belt vs. serpentine).
-6. **Dipstick & Tube:** Universal pan-mounted passenger-side dipstick kit (e.g., Moroso `#25970` / `#25971` / `#25973`) matching Moroso `#20535`.
+6. **Dipstick & Tube (Shortlisted: `Moroso 25970`):** Universal `1/4" NPT` pan-mounted passenger-side dipstick kit matching Moroso `#20535`.
 7. **Valve Covers & Breathers:** Tall perimeter-bolt covers to clear Trick Flow 1.6 roller rockers (check brake booster / Shelby firewall clearance).
 8. **Distributor:** Steel gear or melonized gear compatible with **billet hydraulic roller camshaft** (critical: cast iron gear will shred on a billet roller cam; verify gear material with Woody!).
 9. **Induction & Fuel:** 4150 carb (or throttle-body EFI with mechanical-pump/carb fallback), air cleaner drop-base for `7521` Air-Gap hood clearance, fuel pressure regulator if needed.

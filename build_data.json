@@ -134,6 +134,33 @@
       "notes": "Internally balanced (0 oz). No fuel pump eccentric installed. Needs dressing."
     },
     {
+      "id": "eng-ati-918920",
+      "system": "engine",
+      "status": "shortlisted",
+      "brand": "ATI",
+      "part_number": "918920",
+      "description": "ATI Super Damper SFI 18.1 (0 oz neutral balance, 4-bolt, 3.35\" length, 6.325\" OD)",
+      "notes": "Pairs with Holley 97-447 Mid-Mount crank spacer (verify belt alignment during mock-up)."
+    },
+    {
+      "id": "acc-holley-97-447",
+      "system": "accessory_drive",
+      "status": "shortlisted",
+      "brand": "Holley",
+      "part_number": "97-447",
+      "description": "Holley Mid-Mount SBF Crank Damper Spacer Kit (3.375\" / 4-bolt)",
+      "notes": "Matched to ATI 918920 damper."
+    },
+    {
+      "id": "eng-moroso-25970",
+      "system": "engine",
+      "status": "shortlisted",
+      "brand": "Moroso",
+      "part_number": "25970",
+      "description": "Universal 1/4\" NPT Pan-Mounted Dipstick Kit",
+      "notes": "Fits passenger-side 1/4\" NPT bung on Moroso #20535 pan."
+    },
+    {
       "id": "eng-cobra-valvecovers",
       "system": "engine",
       "status": "acquired",
@@ -200,9 +227,9 @@
       "system": "fuel_induction",
       "status": "acquired",
       "brand": "Radium Engineering",
-      "part_number": "Sail-Panel Fuel Filler Neck",
-      "description": "Rear sail-panel mounted fuel-filler neck",
-      "notes": "Still needs filler piping/hose to connect to MTF side-fill tank"
+      "part_number": "20-1205-V",
+      "description": "Remote Mount Vented Standard Fuel Filler (2.25\" barb) in driver-side rear sail panel",
+      "notes": "Planned plumbing: 2.25\" ID SAE J30R5/J30R7/J1527 fuel-rated 45-deg coupling (no silicone) + bead-rolled 2.25\" OD hard pipe extension + chassis ground strap; remaining tank routing TBD."
     },
     {
       "id": "cool-dewitts-24m",
